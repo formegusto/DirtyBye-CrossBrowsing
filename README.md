@@ -4,30 +4,30 @@
 
 # 0. Browser Test
 
-![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52296323/168630047-7ce2ea0d-42ac-438c-8025-b53aead3fe35.png)
 
 브라우저 시장 점유율 기준으로 Chrome, IE, Edge, Firefox, Safari, Opera 총 6개의 브라우저에서 테스팅을 진행해보았다.
 
 ## Result
 
 - Chrome : no problem
-  ![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%201.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%201.png)
+  ![Untitled 1](https://user-images.githubusercontent.com/52296323/168630085-85e73da7-0849-48ab-80da-d32d1deb2921.png)
 - IE : .scroll-notify icon position problem, banner scroll event not working, .product-desc animation not working
-  ![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%202.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%202.png)
+  ![Untitled 2](https://user-images.githubusercontent.com/52296323/168630104-54089eab-42ed-432f-8ca1-6a855d9282ee.png)
 - Edge : no problem
-  ![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%203.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%203.png)
+  ![Untitled 3](https://user-images.githubusercontent.com/52296323/168630121-b2d09738-da02-4e44-8fcc-c6f82d66d327.png)
 - Firefox : When end banner-scroll, #wrap { overflow-y : scroll } not working
-  ![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%204.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%204.png)
+  ![Untitled 4](https://user-images.githubusercontent.com/52296323/168630146-cea2633e-5c07-41a2-9582-4e214e9dc217.png)
 - Safari : no problem
-  ![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%205.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%205.png)
+  ![Untitled 5](https://user-images.githubusercontent.com/52296323/168630168-8b1cbef2-b22c-4877-8f8a-5fd359993bb6.png)
 - Opera : no problem
-  ![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%206.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%206.png)
+  ![Untitled 6](https://user-images.githubusercontent.com/52296323/168630182-9d12b588-e00f-4ef8-98a8-c8893d343843.png)
 
 # 1. Problem
 
 ## 1. .scroll-notify icon positioning (IE)
 
-![check browser CSS attribute](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/52296323/168630199-3db9f00f-e1fe-4459-81f0-bdc885267040.png)
 
 check browser CSS attribute
 
@@ -35,7 +35,7 @@ check browser CSS attribute
 
 ## 2. banner scroll event not working (IE)
 
-![IE test logging [1]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/52296323/168630226-6ad3fd21-611b-49ce-a321-01c4290329d3.png)
 
 IE test logging [1]
 
@@ -43,19 +43,19 @@ IE test logging [1]
 
 ## 3. .product-desc animation not working (IE)
 
-![chrome test logging [1]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/52296323/168630242-ecc307c0-8bc6-4f03-9a89-34de5d518918.png)
 
 chrome test logging [1]
 
-![firefox test logging [1]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/52296323/168630253-231c5bc6-e958-4c48-ae00-1dbf06714c99.png)
 
 firefox test logging [1]
 
-![opera test logging [1]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/52296323/168630288-f4859d4c-1a20-467f-8a17-f6a21e8837e3.png)
 
 opera test logging [1]
 
-![IE test logging [2]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/52296323/168630302-02fd7b49-b9f3-4d59-918f-4f8a06da541c.png)
 
 IE test logging [2]
 
@@ -63,17 +63,17 @@ IE test logging [2]
 
 ## 4. #wrap { overflow-y : scroll } not working (FireFox)
 
-![firefox test logging [2]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/52296323/168630318-92489018-8bb5-4716-8675-984cb776566b.png)
 
 firefox test logging [2]
 
 - 배너를 다 보면 #wrap의 Scroll이 활성화 되어 footer 까지 내려가지는 로직을 구성했는데, 이 때 올라오는 과정에서 다시 배너를 다 보고 올릴 수 있도록 lock을 걸기 위한 변수 wrapLockBack에 잠금이 걸렸던 #wrap의 scrollY 값을 할당 시켰었다.
 
-![firefox test logging [3]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2014.png)
+![Untitled 14](https://user-images.githubusercontent.com/52296323/168630336-1d93a5d5-d6b2-4f01-b8b6-ecb8bc751555.png)
 
 firefox test logging [3]
 
-![chrome test logging [2]](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2015.png)
+![Untitled 15](https://user-images.githubusercontent.com/52296323/168630354-9508592b-695a-4b28-834d-2d176ddddc6e.png)
 
 chrome test logging [2]
 
@@ -120,7 +120,7 @@ if (
 
 - 크로스브라우징을 해결하는 가장 빠른 방법은 polyfill을 제작하거나 구해서 브라우저에 적용하는 방법이다. 다행히 IE에서 제공하지 않는 스크롤을 편하게 이용할 수 있는 객체들은 누군가가 polyfill을 제작해놔서, 설치 후 서버에 스크립트를 추가하는 방법으로 해결할 수 있었다.
 - npm i element-scroll-polyfill
-  ![Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2016.png](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2016.png)
+  ![Untitled 16](https://user-images.githubusercontent.com/52296323/168630380-fe4dddb5-3394-400e-abc1-25f931fef36e.png)
   ```html
   <script src="/web/v2/js/polyfill.js"></script>
   ```
@@ -154,7 +154,7 @@ if (boxScrollLeft + window.innerHeight < 1682) {
 
 ### 1. display : flex
 
-![check browser CSS attribute](Cross-Browsing%20Report%2048fe145712ae4fa8a0b5eccda54cd794/Untitled%2017.png)
+![Untitled 17](https://user-images.githubusercontent.com/52296323/168630409-b0381961-e275-4326-b762-b5180eb7b1a1.png)
 
 check browser CSS attribute
 
